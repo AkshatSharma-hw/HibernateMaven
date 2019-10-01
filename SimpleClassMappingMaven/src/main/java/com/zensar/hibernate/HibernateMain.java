@@ -20,6 +20,7 @@ public class HibernateMain {
 		p.setName("sabzi");
 		p.setPrice(520.00f);
 		s.save(p);
+		System.out.println("product is saved");
 		t.commit();
 		s.close();
 
